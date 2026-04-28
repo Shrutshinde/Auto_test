@@ -1,0 +1,30 @@
+{
+  "name": "autotest",
+  "version": "1.0.0",
+  "description": "Automated API, URL & Functional Testing Framework using Playwright with detailed HTML reports",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:url": "node src/cli.js --url",
+    "test:api": "node src/cli.js --api",
+    "report": "npx playwright show-report",
+    "dashboard": "node src/server.js"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "api",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^25.6.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "express": "^5.2.1"
+  }
+}
