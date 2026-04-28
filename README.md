@@ -14,7 +14,7 @@ npx playwright install chromium
 
 ### 2. Run Tests
 
-nmp run dashboard -  run the program
+npm run dashboard -  run the program
 
 
 **Test a URL:**
